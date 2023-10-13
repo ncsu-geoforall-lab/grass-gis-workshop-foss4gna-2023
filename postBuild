@@ -5,6 +5,16 @@ set -e
 cd $HOME
 # get the source code
 
+git clone --depth 1 --branch 7.2.1 https://github.com/OSGeo/PROJ proj-src
+cd proj-src
+mkdir build
+cd build
+cmake ..
+cmake --build .
+cmake --build . --target install
+
+cd $HOME
+
 
 git clone --depth 1 --branch v3.5.3 https://github.com/OSGeo/gdal gdal-src
 cd gdal-src
