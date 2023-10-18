@@ -4,44 +4,6 @@
 set -e
 cd $HOME
 # get the source code
-
-git clone --depth 1 --branch 7.2.1 https://github.com/OSGeo/PROJ proj-src
-cd proj-src
-mkdir build
-cd build
-cmake ..
-cmake --build .
-cmake --build . --target install
-
-cd $HOME
-
-
-git clone --depth 1 --branch v3.5.3 https://github.com/OSGeo/gdal gdal-src
-cd gdal-src
-mkdir build
-cd build
-cmake ..
-cmake --build .
-cmake --build . --target install
-
-cd $HOME
-
-wget https://github.com/PDAL/PDAL/releases/download/2.3.0/PDAL-2.3.0-src.tar.bz2
-tar -xvf PDAL-2.3.0-src.tar.bz2
-cd PDAL-2.3.0-src
-mkdir build
-cd build
-cmake ..
-make
-make install
-cd $HOME
-
-
-
-
-
-
-
 git clone --depth 1 --branch 8.3.1RC1 https://github.com/OSGeo/grass.git grass-src
 
 # enter the directory with source code
