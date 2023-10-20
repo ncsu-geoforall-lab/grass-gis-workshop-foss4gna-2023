@@ -37,3 +37,4 @@ unixodbc-dev
 xvfb
 zlib1g-dev
 parallel
+libomp-dev

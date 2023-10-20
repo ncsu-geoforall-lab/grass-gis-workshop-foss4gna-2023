@@ -23,7 +23,8 @@ cd grass-src
     --with-opengl-libs=/usr/include/GL \
     --with-freetype=yes --with-freetype-includes="/usr/include/freetype2/" \
     --with-sqlite=yes \
-    --without-pdal
+    --without-pdal \
+    --with-openmp
 make
 
 # leave the directory with source code
