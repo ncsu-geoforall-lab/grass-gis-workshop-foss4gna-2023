@@ -8,7 +8,7 @@ The workshop can be run online in [WholeTale](https://wholetale.org/) and [Googl
 #### WholeTale
 WholeTale is a scalable, open source, web-based platform for reproducible research.
 
-1. Go to TBD
+1. Go to https://dashboard.wholetale.org/run/653491f2c67faf246f3aa36a
 2. Log in (there are different options)
 3. Run Tale (blue button at the top right)
 4. Confirm Copy and Run Tale
